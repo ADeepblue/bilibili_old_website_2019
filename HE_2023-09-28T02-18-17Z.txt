@@ -1,0 +1,21 @@
+{
+	"request": [],
+	"sendHeader": [
+		{
+			"enable": true,
+			"name": "旧版B站",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "(?!.*\\.com/video).*:/.*\\.bilibili.com(/.*)?",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "user-agent",
+				"value": "Mozilla/5.0 (Windows NT 5.1; rv:52.0) Gecko/20100101 Firefox/52.0"
+			}
+		}
+	],
+	"receiveHeader": [],
+	"receiveBody": []
+}
