@@ -2,12 +2,13 @@
 // @name         test_in_HTML
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  使B站主页回旧
 // @author       深蓝之亘
 // @match        https://www.bilibili.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=bilibili.com
 // @grant        none
 // @run-at       document-start
+// @license MIT
 // ==/UserScript==
 
 (function() {
